@@ -1,10 +1,7 @@
-let orange = 100;
-let apple = 120;
+let i;
+let num = 0;
 
-if(orange < apple) {
-  alert('みかんの値段がりんごより安い');
-} else if(orange == apple){
-  alert('みかんとりんごは同じ値段');
-} else{
-  alert('みかんの値段はりんごより高い');
+for(i = 1; i <11; i++){
+  num = num + i;
 }
+alert('1から１０まで足し算した数は'+ num +'です');
